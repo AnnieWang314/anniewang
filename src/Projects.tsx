@@ -84,7 +84,7 @@ const Projects: React.FC = () => {
     {
       title: "RCA",
       description:
-        "On the Hilbert Series of the Rational Cherednik Algebra; Explicitly determined the Hilbert series of a specific case for the polynomial representation of the rational Cherednik algebra; Paper posted on MIT PRIMES website as first author; Presented at MAA’s 2023 Joint Mathematics Meeitngs",
+        "On the Hilbert Series of the Rational Cherednik Algebra; Explicitly determined the Hilbert series of a specific case for the polynomial representation of the rational Cherednik algebra; Paper posted on MIT PRIMES website as first author; Presented at MAA’s 2023 Joint Mathematics Meetings",
       technologies: ["Mathematics", "Research", "Python"],
       links: {
         demo: "https://math.mit.edu/research/highschool/primes/materials/2022/WangAn.pdf",
@@ -114,7 +114,9 @@ const Projects: React.FC = () => {
                   alignItems: "center",
                 }}
               >
-                <h2 style={{ margin: 0 }}>{project.title}</h2>
+                <div style={{ margin: 0, fontSize: "32px", fontWeight: "600" }}>
+                  {project.title}
+                </div>
                 {project.links && (
                   <div className="project-links" style={{ marginLeft: "auto" }}>
                     {project.links.github && (
