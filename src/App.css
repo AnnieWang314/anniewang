@@ -100,10 +100,13 @@
 
 .tech-stack {
   margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
 }
 
 .tech-tag {
-  margin-right: 5px;
+  margin-right: 2px;
   padding: 5px;
   background-color: #bcd2cf;
   border-radius: 4px;

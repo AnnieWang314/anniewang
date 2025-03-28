@@ -17,7 +17,14 @@ const Projects: React.FC = () => {
       title: "Plume",
       description:
         "HackMIT's all-in-one platform for managing hackathons; Includes application portal, check in process, project submission, judging platform, streamlined bulk admin tools, etc.; Led team of 10 to build the MVP (and beyond)",
-      technologies: ["React", "Node.js"],
+      technologies: [
+        "React",
+        "Typescript",
+        "Python",
+        "Flask",
+        "PostgreSQL",
+        "AWS",
+      ],
       links: {
         demo: "https://plume.hackmit.org",
       },
@@ -26,7 +33,13 @@ const Projects: React.FC = () => {
       title: "Pigeon",
       description:
         "HackMIT's RAG email assistant to automate responses based on email responses; Responsible in overseeing its Chrome extension integration into Gmail and Outlook; Additionally added authentication and imports for documents",
-      technologies: ["Python", "Flask"],
+      technologies: [
+        "Python",
+        "Flask",
+        "Redis",
+        "PostgreSQL",
+        "Chrome Extensions",
+      ],
       links: {
         demo: "https://pigeon.hackmit.org/",
       },
@@ -35,7 +48,7 @@ const Projects: React.FC = () => {
       title: "Splash",
       description:
         "HackMIT's landing page for the HackMIT and Blueprint hackathons—with the most recent one linked; Check out <a href='https://archive.hackmit.org' target='_blank' rel='noopener noreferrer'>archive.hackmit.org</a> and <a href='https://bparchive.hackmit.org' target='_blank' rel='noopener noreferrer'>bparchive.hackmit.org</a> for more",
-      technologies: ["React", "Node.js"],
+      technologies: ["React", "Three.js"],
       links: {
         demo: "https://blueprint.hackmit.org",
       },
@@ -44,7 +57,7 @@ const Projects: React.FC = () => {
       title: "Wodou",
       description:
         "NYT's Wordle with a twist; HackMIT 2024 organizer admission puzzle; Combines algorithms, cryptography, and Chinese calligraphy",
-      technologies: ["React", "Vercel", "JavaScript"],
+      technologies: ["React", "Next.js", "Redis", "Vercel"],
       links: {
         github: "https://github.com/AnnieWang314/wodou",
         demo: "https://wodou.vercel.app/",
@@ -54,7 +67,7 @@ const Projects: React.FC = () => {
       title: "Blank[space]",
       description:
         "AI-powered personalized writing assistant; Project submitted to Hack@Brown 2024; Winner of the Best Use of MongoDB Atlas Prize; Led team of 4 to build end-to-end; Differs from standard autocompletion tools given personalized purpose of writing",
-      technologies: ["Python", "Flask", "Machine Learning"],
+      technologies: ["React", "Express.js", "Javascript", "MongoDB", "AI"],
       links: {
         github: "https://github.com/AnnieWang314/blankspace",
       },
@@ -63,7 +76,7 @@ const Projects: React.FC = () => {
       title: "SlangZ",
       description:
         "Platform to learn Gen Z slang; Web Lab (6.9620) final project; Led team of 3 to develop end-to-end app; Track users' personal progress of study flashcards and exercises; Imagine Duolingo x Quizlet",
-      technologies: ["React", "Node.js", "MongoDB"],
+      technologies: ["React", "Express.js", "Javascript", "MongoDB"],
       links: {
         github: "https://github.com/weblab-class/katdou-reneehong-AnnieWang314",
       },
@@ -72,7 +85,7 @@ const Projects: React.FC = () => {
       title: "RCA",
       description:
         "On the Hilbert Series of the Rational Cherednik Algebra; Explicitly determined the Hilbert series of a specific case for the polynomial representation of the rational Cherednik algebra; Paper posted on MIT PRIMES website as first author; Presented at MAA’s 2023 Joint Mathematics Meeitngs",
-      technologies: ["Mathematics", "Research"],
+      technologies: ["Mathematics", "Research", "Python"],
       links: {
         demo: "https://math.mit.edu/research/highschool/primes/materials/2022/WangAn.pdf",
       },
