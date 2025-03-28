@@ -76,9 +76,9 @@ const Projects: React.FC = () => {
       title: "SlangZ",
       description:
         "Platform to learn Gen Z slang; Web Lab (6.9620) final project; Led team of 3 to develop end-to-end app; Track users' personal progress of study flashcards and exercises; Imagine Duolingo x Quizlet",
-      technologies: ["React", "Express.js", "Javascript", "MongoDB"],
+      technologies: ["React", "Express.js", "Typescript", "MongoDB"],
       links: {
-        github: "https://github.com/weblab-class/katdou-reneehong-AnnieWang314",
+        github: "https://github.com/AnnieWang314/slangz",
       },
     },
     {
