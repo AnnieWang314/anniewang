@@ -5,14 +5,14 @@ import Projects from "./Projects";
 import { useState } from "react";
 
 function App() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  // const [isDarkMode, setIsDarkMode] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const location = useLocation();
 
-  const toggleDarkMode = () => {
-    setIsDarkMode((prevMode) => !prevMode);
-    document.body.classList.toggle("dark-mode", !isDarkMode);
-  };
+  // const toggleDarkMode = () => {
+  //   setIsDarkMode((prevMode) => !prevMode);
+  //   document.body.classList.toggle("dark-mode", !isDarkMode);
+  // };
 
   const toggleMenu = () => {
     setMenuOpen((prev) => !prev);
